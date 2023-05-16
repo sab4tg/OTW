@@ -1,7 +1,7 @@
 Connect with
 
 ```
-> ssh bandit5@bandit.labs.overthewire.org -p 2220
+> ssh bandit6@bandit.labs.overthewire.org -p 2220
 ```
 
 Same kinda deal as the previous bandit - we need to use a find expression that matches the given constraints.
