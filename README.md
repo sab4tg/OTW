@@ -1,2 +1,2 @@
 # OTW
-A collection of solutions to the overthewire.org wargames.
+My solutions to the overthewire.org wargames. I won't claim these are optimal / entirely correct, so your mileage may vary.
