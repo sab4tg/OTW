@@ -27,7 +27,7 @@ Looking at the documentation for `find`, there are a couple of noteworthy flags
 - ! expr True  if  expr is false.  This character will also usually need protection from interpretation by the
               shell.
 
-So, as it turns out we can craft an expression using the bash builtin `find` command:
+So, as it turns out we can craft an expression using the `find` command:
 
 ```
 > find . -maxdepth 5 -size 1033c ! -executable
