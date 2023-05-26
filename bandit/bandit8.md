@@ -20,4 +20,8 @@ $ sort data.txt | uniq -u
 
 I will also add this command runs signficantly faster than my bash solution because comparing every string with its neighbors is O(n). 
 
+### A little bit about what the above command is actually doing
+
+We're trying to output the string that has no copies in the file - the only reason the above command works is because the password is unique in the file, if there a scenario where we'd need to parse through other duplicates we'd need some additional logic to help us find the password. `uniq` is a tool that will remove adjacent duplicate lines 
+
 - My bash command on an input of 1001 32-bit strings took ~1.5s, while the combination of sort then uniq completes in ~0.005s.
