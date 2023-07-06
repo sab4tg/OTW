@@ -14,7 +14,7 @@ Using the above command, I found 5 open ports in that range. Easy enough to go t
 
 ```
 $ openssl s_client -connect localhost:XXXXX -ign_eof
-{paste password acquired in bandit14 challenge}
+{paste password acquired in bandit15 challenge}
 ```
 
 In my case, I found a rsa private key is returned with I submit bandit15's key on port 31790. Saving this key into a private key file in the /tmp directory, I lastly use the private keyfile to log into bandit17. One small issue with this method is that I needed to modify the file permissions of my keyfile to meet OTW's security requirements (it will yell at you if your private key isn't locked down and you try to use it). 
