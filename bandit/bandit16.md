@@ -4,7 +4,7 @@ Connect with
 $ ssh bandit16@bandit.labs.overthewire.org -p 2220
 ```
 
-This challenge wants us to do a port scan on a range to find the ones that are open and that have the ssl service is running on them. Easy with netcat.
+This challenge wants us to do a port scan on a range to find the ones that are open and that have the ssl service is running on them. Easy with nmap.
 
 ```
 nmap localhost -p 31000-32000 | grep open
