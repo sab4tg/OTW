@@ -4,7 +4,7 @@ Once logged into bandit17 using the steps from [bandit16.md](https://github.com/
 $ diff passwords.*
 ```
 
-An annoying aspect of bandit18 is that the `.bashrc` configuration file for bandit18 doesn't let you log in using bash. Thus, you need to use a different shell. While establishing a login shell is the default behavior for using secure shell, the `ssh` command takes a command parameter to pass along to the receiver in case you want to execute different functionality than a login shell. So we can use the following:
+An annoying aspect of bandit18 is that the `.bashrc` configuration file for bandit18 doesn't let you log in using bash over ssh. Thus, you need to use a different shell. While establishing a login shell is the default behavior for using secure shell, the `ssh` command takes a command parameter to pass along to the receiver in case you want to execute different functionality than a login shell. So we can use the following:
 
 ```
 $ ssh bandit18@bandit.labs.overthewire.org -p 2220 {command}
