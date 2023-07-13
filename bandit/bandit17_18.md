@@ -1,4 +1,4 @@
-Once logged into bandit17 using the steps from `bandit16.md` simply run `diff` to find the difference between the passwords.old and passwords.new files.
+Once logged into bandit17 using the steps from [bandit16.md](https://github.com/sab4tg/OTW/blob/main/bandit/bandit16.md) simply run `diff` to find the difference between the passwords.old and passwords.new files.
 
 ```
 $ diff passwords.*
