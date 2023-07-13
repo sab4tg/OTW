@@ -1,7 +1,7 @@
 Connect with
 
 ```
-> ssh bandit1@bandit.labs.overthewire.org -p 2220
+> ssh bandit0bandit.labs.overthewire.org -p 2220
 ```
 
 bandit0 password: bandit0
